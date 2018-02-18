@@ -20,9 +20,9 @@ This is a mean shift algorithm implementation in cuda
 
 - run the programs with the commands:
 ```
-  $./serialMeanShift -h- -NumberOfPoints- -Dimensions- -DatasetFile- -TestFile- 
-  $./cudaMeanShift -h- -NumberOfPoints- -Dimensions- -DatasetFile- -TestFile- -BlocksPerGrid- -ThreadsPerBlock- 
-  $./cudaMeanShiftSharedMemory -h- -NumberOfPoints- -Dimensions- -DatasetFile- -TestFile- -BlocksPerGrid- -ThreadsPerBlock- 
+  $./serialMeanShift -σ- -NumberOfPoints- -Dimensions- -DatasetFile- -TestFile- 
+  $./cudaMeanShift -σ- -NumberOfPoints- -Dimensions- -DatasetFile- -TestFile- -BlocksPerGrid- -ThreadsPerBlock- 
+  $./cudaMeanShiftSharedMemory -σ- -NumberOfPoints- -Dimensions- -DatasetFile- -TestFile- -BlocksPerGrid- -ThreadsPerBlock- 
 ```
 ### Suggested execution for the datasets 
 
